@@ -3,9 +3,9 @@ import Link from 'next/link';
 export default function Post() {
   return (
     <div>
-      <h2>Home page</h2>
+      <h2>Post page</h2>
       <br />
-      <Link href="/post/id">Go to post page</Link>
+      <Link href="/">Go to home page</Link>
     </div>
   );
 }
